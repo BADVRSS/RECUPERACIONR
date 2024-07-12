@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="fondo.jpg">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos Combinados</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+            background-image: url('fondo.jpg');
+            background-size: cover;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;     
+            background-position: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ejemplos Combinados</h1>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2>Ejercicio 2.10: Agregar Marca y Modelo</h2>
+        <div id="tabla-210" class="mb-4">
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-210"></tbody>
+            </table>
+        </div>
+        <form id="formulario-210">
+            <div class="form-group">
+                <input type="text" id="marca" name="marca" class="form-control" placeholder="Nombre de la marca">
+                <input type="text" id="modelo" name="modelo" class="form-control mt-2" placeholder="Nombre del modelo">
+                <span class="text-danger" id="error-210"></span>
+            </div>
+            <button type="submit" id="boton-210" class="btn btn-primary btn-block">Agregar</button>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br>
+        <h2>Ejemplo 2.4: Agregar Números</h2>
+        <div id="tabla-24" class="mb-4">
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>No</th>
+                        <th>Número</th>
+                        <th>Es Primo</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-24"></tbody>
+            </table>
+        </div>
+        <form id="formulario-24">
+            <div class="form-group">
+                <input type="text" id="numero-24" name="numero" class="form-control" placeholder="Escriba un número">
+                <span class="text-danger" id="error-24"></span>
+            </div>
+            <button type="submit" id="boton-24" class="btn btn-primary btn-block">Agregar</button>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br>
+        <h2>Suma de Números Pares entre 2 y 100</h2>
+        <div id="tabla-pares100" class="mb-4">
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>No</th>
+                        <th>Número</th>
+                        <th>Suma Parcial</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-pares100"></tbody>
+            </table>
+        </div>
+        <form id="formulario-pares100">
+            <div class="form-group">
+                <input type="text" id="numero-pares100" name="numero" class="form-control" placeholder="Escriba un número">
+                <span class="text-danger" id="error-pares100"></span>
+            </div>
+            <button type="submit" id="boton-pares100" class="btn btn-primary btn-block">Agregar</button>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br>
+        <h2>Ejemplo 2.5: Volumen del Cilindro</h2>
+        <div id="tabla-25" class="mb-4">
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Radio</th>
+                        <th>Altura</th>
+                        <th>Volumen</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-25"></tbody>
+            </table>
+        </div>
+        <form id="formulario-25">
+            <div class="form-group">
+                <input type="number" id="radio" name="radio" class="form-control" placeholder="Radio del cilindro">
+                <input type="number" id="altura" name="altura" class="form-control mt-2" placeholder="Altura del cilindro">
+                <span class="text-danger" id="error-25"></span>
+            </div>
+            <button type="submit" id="boton-25" class="btn btn-primary btn-block">Calcular</button>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br>
+        <h2>Suma de Números Pares entre 2 y 1000</h2>
+        <div id="tabla-pares1000" class="mb-4">
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>No</th>
+                        <th>Número</th>
+                        <th>Suma Parcial</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-pares1000"></tbody>
+            </table>
+        </div>
+        <form id="formulario-pares1000">
+            <div class="form-group">
+                <input type="number" id="numero-pares1000" name="numero" class="form-control" placeholder="Escriba un número">
+                <span class="text-danger" id="error-pares1000"></span>
+            </div>
+            <button type="submit" id="boton-pares1000" class="btn btn-primary btn-block">Agregar</button>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br>
+        <h2>Calculadora de Salario Semanal</h2>
+        <div id="tabla-salario" class="mb-4">
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Horas</th>
+                        <th>Salario</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-salario"></tbody>
+            </table>
+        </div>
+        <form id="formulario-salario">
+            <div class="form-group">
+                <input type="number" id="horas" name="horas" class="form-control" placeholder="Horas trabajadas esta semana">
+                <span class="text-danger" id="error-salario"></span>
+            </div>
+            <button type="submit" id="boton-salario" class="btn btn-primary btn-block">Calcular Salario</button>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br>
+        <h2>Ejercicio 2.6: Longitud del Lado del Cuadrado</h2>
+        <div id="tabla-26" class="mb-4">
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Lado</th>
+                        <th>Área</th>
+                        <th>Perímetro</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-26"></tbody>
+            </table>
+        </div>
+        <form id="formulario-26">
+            <div class="form-group">
+                <input type="text" id="lado" name="lado" class="form-control" placeholder="Longitud del lado del cuadrado">
+                <span class="text-danger" id="error-26"></span>
+            </div>
+            <button type="submit" id="boton-26" class="btn btn-primary btn-block">Calcular</button>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br>
+        <h2>Verificador de Números Primos</h2>
+        <div id="tabla-primos" class="mb-4">
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>No</th>
+                        <th>Número</th>
+                        <th>Es Primo</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-primos"></tbody>
+            </table>
+        </div>
+        <form id="formulario-primos">
+            <div class="form-group">
+                <input type="number" id="numero-primos" name="numero" class="form-control" placeholder="Escriba un número">
+                <span class="text-danger" id="error-primos"></span>
+            </div>
+            <button type="submit" id="boton-primos" class="btn btn-primary btn-block">Verificar Primo</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="recuperacion.js"></script>
+</body>
+</html>
+
